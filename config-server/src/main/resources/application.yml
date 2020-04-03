@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Mocnyzuk/configFiles.git
+
+server:
+  port: 8888
